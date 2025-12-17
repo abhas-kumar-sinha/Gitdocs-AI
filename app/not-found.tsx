@@ -47,7 +47,7 @@ const NotFound = () => {
       <div className="relative z-10 max-w-3xl w-full text-center">
         <div className="mb-8 animate-float">
           <h1 className="text-9xl font-bold bg-gradient-to-r from-gitdocs-blue via-gitdocs-purple to-gitdocs-orange bg-clip-text text-transparent drop-shadow-sm">
-            404
+            
           </h1>
         </div>
 

@@ -154,14 +154,15 @@ const NavBar = () => {
           </div>
         </div>
       </div>
-      {(storedUser?.usageOverview?.totalTokens || 0) -
-        (storedUser?.usageOverview?.tokensUsed || 0) <
-        500 && (
-        <div className="sticky top-0 z-40 flex items-center justify-center text-[0.9rem] gap-4 px-6 py-4 h-11 bg-[#483C16] text-[#FFC106] tracking-wide">
-          Please add tokens in your account in to continue generating README
-          files with GitDocs AI.
-        </div>
-      )}
+      <div className="sticky top-0 z-40 flex items-center justify-center text-[0.9rem] gap-4 px-6 py-4 h-11 bg-[#163048] text-[#0655ff] tracking-wide">
+        🚧 Gitdocs AI is temporarily unavailable
+
+        We’re currently working on Gitdocs AI v2.0.
+        The dashboard is under maintenance and won’t function during this period.
+
+        ⏳ Please check back in ~4 days for the new release.
+        Thanks for your patience — exciting upgrades are coming!
+      </div>
     </>
   );
 };
