@@ -160,7 +160,7 @@ const NavBar = () => {
         We’re currently working on Gitdocs AI v2.0.
         The dashboard is under maintenance and won’t function during this period.
 
-        ⏳ Please check back in ~4 days for the new release.
+        ⏳ Please check back in ~3 days for the new release.
         Thanks for your patience — exciting upgrades are coming!
       </div>
     </>
